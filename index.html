@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html id="top">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Scroll CSS </title>
+	<style type="text/css">
+		html{
+			scroll-behavior: smooth;
+		}
+		a{
+			display: inline-block;
+			width: auto;
+			text-decoration: none;
+			font-size: 1.3em;
+		}
+		nav, scroll-container{
+			display: block;
+			margin: 0 auto;
+			text-align: center;
+		}
+		scroll-container{
+			width: 800px;
+			height: auto;
+			position: relative;
+		}
+		scroll-page{
+			border:1px solid blue;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 100%;
+			font-size: 2em;
+			margin: 15px;
+		}
+		#topo{
+			position: absolute;
+			bottom: 15px;
+			right: 25px;
+		}
+		
+	    </style>
+</head>
+<body>
+	<nav>
+		<a href="#page-1">Seção 1</a> |
+		<a href="#page-2">Seção 2</a> |
+		<a href="#page-3">Seção 3</a> |
+	</nav>
+	<scroll-container>
+		<scroll-page id="page-1">
+			<h2>A Beleza Total, de Drummond</h2> 
+			<hr>
+			A beleza de Gertrudes fascinava todo mundo e a própria Gertrudes. Os espelhos pasmavam diante de seu rosto, recusando-se a refletir as pessoas da casa e muito menos as visitas. Não ousavam abranger o corpo inteiro de Gertrudes. Era impossível, de tão belo, e o espelho do banheiro, que se atreveu a isto, partiu-se em mil estilhaços.
+            A moça já não podia sair à rua, pois os veículos paravam à revelia dos condutores, e estes, por sua vez, perdiam toda capacidade de ação. Houve um engarrafamento monstro, que durou uma semana, embora Gertrudes houvesse voltado logo para casa.
+            O Senado aprovou lei de emergência, proibindo Gertrudes de chegar à janela. A moça vivia confinada num salão em que só penetrava sua mãe, pois o mordomo se suicidara com uma foto de Gertrudes sobre o peito.
+            Gertrudes não podia fazer nada. Nascera assim, este era o seu destino fatal: a extrema beleza. E era feliz, sabendo-se incomparável. Por falta de ar puro, acabou sem condições de vida, e um dia cerrou os olhos para sempre. Sua beleza saiu do corpo e ficou pairando, imortal. O corpo já então enfezado de Gertrudes foi recolhido ao jazigo, e a beleza de Gertrudes continuou cintilando no salão fechado a sete chaves.
+	    </scroll-page>
+	    <scroll-page id="page-2">
+			<h2>De Noite, de Franz Kafka</h2> 
+			<hr>
+			Submergir-se em a noite! Assim como às vezes se enterra a cabeça no peito para refletir, fundir-se assim por completo em a noite. Em redor dormem os homens. Um pequeno espetáculo, um auto-engado inocente, é o dormir em casas, em camas sólidas, sob teto seguro, estendidos ou encolhidos, sobre colchões, entre lençóis, sob cobertas; na realidade, encontram-se reunidos como outrora uma vez e como depois em uma comarca deserta: um acampamento à intempérie, uma incontável quantidade de pessoas, um exército, um povo sob um céu frio, sobre uma terra fria, atirados ao solo ali onde antes se esteve de pé, com a fronte apertada contra o braço, e a cara contra o solo, respirando tranquilamente. E tu velas, és um dos vigias, encontras ao próximo agitando o madeiro aceso que tomaste do montão de estilhas, junto a ti. Por que velas? Alguém tem que velar, se disse. Alguém precisa estar aí.
+			<a href="#page-1">Seção 1</a>
+	    </scroll-page>
+	    <scroll-page id="page-3">
+			<h2>O Discípulo, de Oscar Wilde</h2> 
+			<hr>
+			Quando Narciso morreu o lago de seu prazer mudou de uma taça de águas doces para uma taça de lágrimas salgadas, e as oréades vieram chorando pela mata com a esperança de cantar e dar conforto ao lago.
+            E quando elas viram que o lago havia mudado de uma taça de águas doces para uma taça de lágrimas salgadas, elas soltaram as verdes tranças de seus cabelos e clamaram: "Nós entendemos você chorar assim por Narciso, tão belo ele era."
+            "E Narciso era belo?", disse o lago.
+            "Quem pode sabê-lo melhor que você?", responderam as oréades. "Por nós ele mal passava, mas você ele procurava, e deitava em suas margens e olhava para você, e no espelho de suas águas ele refletia sua própria beleza."
+            E o lago respondeu, "Mas eu amava Narciso porque, quando ele deitava em minhas margens e olhava para mim, no espelho de seus olhos eu via minha própria beleza refletida”.
+			<a href="#page-2">Seção 2</a>
+	    </scroll-page>
+	    <a id="topo" href="#top">Home</a>
+	</scroll-container>
+</body>
+</html>
+//https://www.culturagenial.com/contos-curtos-para-ler-agora-mesmo/
